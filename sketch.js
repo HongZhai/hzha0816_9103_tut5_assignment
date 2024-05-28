@@ -126,60 +126,7 @@ function drawTheseCircles() {
       centerCircleColors: [color(255, 74, 171), color(255, 114, 171), color(226, 3, 92), color(125, 154, 122), color(51, 51, 51), color(255, 0, 0), color(255, 255, 255)],
       centerCircleSizes: [133, 118, 5, 55, 45, 38, 25]
     },
-    {
-      x: 680, y: 380, size: 220, color: color(254, 255, 229),
-      dotCounts: [20, 23, 23, 25, 35],
-      radiusFactor: [0.5, 0.6, 0.7, 0.8, 0.9],
-      dotColors: [color(255, 135, 14), color(255, 135, 14), color(255, 135, 14), color(255, 135, 14), color(255, 135, 14)],
-      drawRays: false,
-      centerCircleColors: [color(204, 255, 153), color(255, 102, 255), color(102, 204, 0), color(255, 102, 255), color(102, 204, 0), color(153, 255, 255), color(153, 153, 153), color(102, 102, 102), color(102, 204, 0), color(255, 255, 255)],
-      centerCircleSizes: [115, 100, 95, 85, 75, 60, 50, 40, 30, 18]
-    },
-    {
-      x: 500, y: 220, size: 230, color: color(255, 169, 38),
-      dotCounts: [20, 30, 30, 35, 40],
-      radiusFactor: [0.58, 0.68, 0.77, 0.86, 0.95],
-      dotColors: [color(204, 153, 255), color(204, 153, 255), color(204, 153, 255), color(204, 153, 255), color(204, 153, 255)],
-      drawRays: false,
-      centerCircleColors: [color(255, 51, 255), color(0, 255, 255), color(255, 51, 255), color(0, 255, 255), color(255, 51, 255), color(128, 128, 128), color(96, 96, 96), color(0, 255, 255), color(255, 0, 0), color(224, 224, 224)],
-      centerCircleSizes: [125, 115, 105, 90, 75, 70, 60, 40, 35, 20]
-    },
-    {
-      x: 550, y: -10, size: 210, color: color(255, 250, 250),
-      dotCounts: [20, 23, 23, 25, 35],
-      radiusFactor: [0.55, 0.65, 0.76, 0.85, 0.95],
-      dotColors: [color(239, 41, 41), color(239, 41, 41), color(239, 41, 41), color(239, 41, 41), color(239, 41, 41)],
-      drawRays: false,
-      centerCircleColors: [color(204, 0, 204), color(255, 153, 255), color(102, 178, 255), color(255, 153, 255), color(141, 169, 144), color(0, 0, 0), color(76, 153, 0), color(255, 255, 255)],
-      centerCircleSizes: [133, 125, 115, 105, 95, 75, 55, 30]
-    },
-    {
-      x: 760, y: 820, size: 210, color: color(245, 219, 116),
-      dotCounts: [20, 23, 23, 25, 35],
-      radiusFactor: [0.55, 0.65, 0.76, 0.85, 0.98],
-      dotColors: [color(41, 90, 132), color(41, 90, 132), color(41, 90, 132), color(41, 90, 132), color(41, 90, 132)],
-      drawRays: false,
-      centerCircleColors: [color(255, 74, 171), color(255, 114, 171), color(226, 3, 92), color(125, 154, 122), color(51, 51, 51), color(255, 0, 0), color(255, 255, 255)],
-      centerCircleSizes: [133, 118, 5, 55, 45, 38, 25]
-    },
-    {
-      x: 720, y: 140, size: 210, color: color(255, 178, 102),
-      dotCounts: [20, 30, 30, 35, 40],
-      radiusFactor: [0.6, 0.68, 0.77, 0.86, 0.95],
-      dotColors: [color(178, 102, 255), color(0, 76, 153), color(0, 76, 153), color(0, 76, 153), color(0, 76, 153)],
-      drawRays: false,
-      centerCircleColors: [color(0, 0, 0), color(178, 102, 255), color(0, 0, 0), color(102, 102, 102), color(51, 51, 51), color(255, 0, 0), color(255, 255, 255)],
-      centerCircleSizes: [115, 105, 75, 65, 55, 40, 25, 15]
-    },
-    {
-      x: 340, y: 40, size: 210, color: color(255, 255, 0),
-      dotCounts: [10, 20, 30, 40, 50],
-      radiusFactor: [0.5, 0.6, 0.7, 0.8, 0.9],
-      dotColors: [color(255, 0, 0), color(0, 255, 0), color(0, 0, 255), color(255, 255, 0), color(255, 0, 255)],
-      drawRays: false,
-      centerCircleColors: [color(255, 255, 255), color(204, 204, 204), color(153, 153, 153), color(102, 102, 102), color(51, 51, 51)],
-      centerCircleSizes: [60, 45, 30, 15, 5]
-    }
+   
   ];
 
   for (let i = 0; i < circles.length; i++) {
