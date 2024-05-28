@@ -221,7 +221,7 @@ function drawDots(x, y, diameter, dotCounts, radiusFactor, dotColors) {
     noStroke();
     for (let dot = 0; dot < numDots; dot++) {
       let angle = TWO_PI / numDots * dot;
-      let offsetAngle = easing(frameCount * 0.05);
+      let offsetAngle = easing(frameCount * 0.02);
       let dotX = x + radius * cos(angle + offsetAngle); 
       let dotY = y + radius * sin(angle + offsetAngle); 
       ellipse(dotX, dotY, 8, 9);
