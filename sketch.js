@@ -163,7 +163,15 @@ function drawTheseCircles() {
       centerCircleColors: [color(255, 74, 171), color(255, 114, 171), color(226, 3, 92), color(125, 154, 122), color(51, 51, 51), color(255, 0, 0), color(255, 255, 255)],
       centerCircleSizes: [133, 118, 5, 55, 45, 38, 25]
     },
-
+    {
+      x: 720, y: 140, size: 210, color: color(255, 178, 102),
+      dotCounts: [20, 30, 30, 35, 40],
+      radiusFactor: [0.6, 0.68, 0.77, 0.86, 0.95],
+      dotColors: [color(178, 102, 255), color(0, 76, 153), color(0, 76, 153), color(0, 76, 153), color(0, 76, 153)],
+      drawRays: false,
+      centerCircleColors: [color(0, 0, 0), color(178, 102, 255), color(0, 0, 0), color(102, 102, 102), color(51, 51, 51), color(255, 0, 0), color(255, 255, 255)],
+      centerCircleSizes: [115, 105, 75, 65, 55, 40, 25, 15]
+    },
   ];
 
   for (let i = 0; i < circles.length; i++) {
