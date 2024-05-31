@@ -7,6 +7,8 @@
 
 ### Part 2
 #### I choose to using Time-Based to change the code
+#### I used the easing and time-based code taught by Week 9 tutorial and also changed the part about the small circles in the group code, because the original simplified version could not run after the change, so I added the ray and dot parts in to the code.
+
 
 #### In my project, the dots around the circles will clockwise rotate ,the conterclockwise around the center after the set time. My groupmates projects are changing colors by mouse clicking and the dots will shaking by Perlin noise.
 
@@ -15,4 +17,3 @@
 
 [link for the video](https://youtu.be/6PndwgJuF3g?si=26j6LbglQXkGWGdT)
 
-#### I used the easing and time-based code taught by Week 9 tutorial
