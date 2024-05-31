@@ -9,6 +9,24 @@ function draw() {
   background(20, 84, 112); 
   drawTheseCircles();
 }
+
+class Circle {
+  constructor(x, y, size, color, dotCounts, radiusFactor, dotColors, drawRays, rayColor, numRays, centerCircleColors, centerCircleSizes) {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+    this.color = color;
+    this.dotCounts = dotCounts;
+    this.radiusFactor = radiusFactor;
+    this.dotColors = dotColors;
+    this.drawRays = drawRays;
+    this.rayColor = rayColor;
+    this.numRays = numRays;
+    this.centerCircleColors = centerCircleColors;
+    this.centerCircleSizes = centerCircleSizes;
+  }
+}
+
 //set functions for circles
 function drawTheseCircles() {
   let circles = [
@@ -807,7 +825,6 @@ function drawTheseCircles() {
       centerCircleSizes: [40, 30, 20]
     },
     //
-            //
     {
       x: 640, y: 250, size: 25, color: color(218, 243, 229),
       dotCounts: [0],
